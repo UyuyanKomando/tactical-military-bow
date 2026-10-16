@@ -1,3 +1,25 @@
+# 1.0.2 / Sürüm Notları / Release Notes
+
+## Türkçe - 1.0.2
+
+- Yay ikinci eldeyken oluşan hatalı birinci şahıs görüntüsü kaldırıldı.
+- TaCZ tarzı sırtta taşıma eklendi: yay ikinci eldeyken veya ilk hotbar yuvasında seçili değilken sırtta görünür.
+- İkinci el ve hotbar için sırttaki yay konumu ve açısı eşitlendi.
+- Sadağın eksik gövde kaplaması düzeltildi.
+- Nişangâh, siyah yuvarlak gövde, yan vidalar ve yeni menzil çizgileriyle yenilendi; V işareti kaldırıldı.
+- Nişangâhın iç çizgileri ve mesafe yazıları parlak neon kırmızı yapıldı.
+- Mevcut ok hasarları, tarifler ve atış davranışı korundu. Bağımlılıklar değişmedi.
+
+## English - 1.0.2
+
+- Fixed incorrect first-person rendering when the bow is in the offhand.
+- Added TaCZ-style back carry: the bow appears on the back while in the offhand or in the first hotbar slot when that slot is not selected.
+- Matched back carry position and angle between offhand and hotbar placement.
+- Fixed a missing quiver body surface texture.
+- Redesigned the sight with a black circular housing, side screws and new range markings; removed the V-shaped marker.
+- Changed the range markings and distance labels to bright neon red.
+- Existing arrow damage, recipes and firing behavior are unchanged. Dependencies are unchanged.
+
 # 1.0.1 / Sürüm Notları / Release Notes
 
 ## Türkçe - 1.0.1
