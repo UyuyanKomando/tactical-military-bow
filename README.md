@@ -21,7 +21,7 @@ Güncelleme yaparken modun eski JAR dosyasını kaldırın ve dünyanızı yedek
 
 1.0.2: Yay ikinci eldeyken birinci şahıs görünümünde gizlenir. İkinci elde veya ilk hotbar yuvasında seçili değilken sırtta taşınır; iki durumda da konumu aynıdır. Nişangâh siyah gövdeli ve parlak neon kırmızı menzil çizgilidir.
 
-Sol tıkla kirişi çekip bırakarak ateş edin; sağ tıkla nişan alın. R doldurur, O etkileşim içindir. Yay elindeyken TaCZ'nin Atış modu değiştirme tuşu (varsayılan G) ok türünü değiştirir; tuş yeniden atanabilir. Çekiş ve doldurma sırasında ok değiştirilemez. Önceki ok iade edilir; mevcut olmayan türler atlanır. HUD yay adını, yay simgesini, ok türünü ve o türün yedek adedini gösterir.
+Sol tıkla kirişi çekip bırakarak ateş edin; sağ tıkla nişan alın. Tam çekiş normal oyun hızında 0,7 saniye sürer; tam çekişteki tekrarlayan yay sallanması kaldırılmıştır. R doldurur, O etkileşim içindir. Yay elindeyken TaCZ'nin Atış modu değiştirme tuşuna (varsayılan G) basılı tutarak beşli ok seçim çemberini açın; fareyle oku seçip tuşu bırakın. Merkezde bırakmak veya Esc iptal eder. Tuş yeniden atanabilir. Çekiş ve doldurma sırasında ok değiştirilemez. Önceki ok iade edilir; stokta olmayan türe geçilemez (Creative hariç). HUD yay adını, yay simgesini, ok türünü ve o türün yedek adedini gösterir. Çember Arcana gerektirmez ve Arcana'nın kendi mühimmat menüsünü kullanmaz.
 
 Sadağı Curios kemer yuvasına takın. Sadağı elinizde tutarken sağ tık menüsünü açar; Shift + sağ tık sıradaki dolu yuvayı seçer. Sadak dokuz yığın, toplam 576 ok tutar. Sadak yalnızca modun beş özel okunu kabul eder; diğer eşyalar ve Minecraft'ın standart okları eklenemez.
 
@@ -76,7 +76,7 @@ When updating, remove the mod's previous JAR and back up your world.
 
 1.0.2: The bow is hidden in first person while in the offhand. It is carried on the back while in the offhand or in the first hotbar slot when that slot is not selected, with matching placement. The sight has a black housing and bright neon red range markings.
 
-Hold and release left click to draw and fire; right click to aim. R reloads; O interacts. While holding the bow, TaCZ's Fire Mode key (G by default, rebindable) cycles arrow types. Switching is blocked while drawing or reloading. The old loaded arrow is returned and unavailable types are skipped. The HUD shows the bow name/icon, arrow type and that type's reserve count.
+Hold and release left click to draw and fire; right click to aim. Full draw takes 0.7 seconds at normal tick speed; the repeating full-draw bow sway has been removed. R reloads; O interacts. While holding the bow, hold TaCZ's Fire Mode key (G by default, rebindable) to open the five-arrow selection wheel. Point at an arrow and release the key to select it. Release in the center or press Esc to cancel. Switching is blocked while drawing or reloading. The old loaded arrow is returned; unavailable types cannot be selected outside Creative mode. The HUD shows the bow name/icon, arrow type and that type's reserve count. This wheel does not require Arcana or use Arcana's native ammo menu.
 
 Equip the quiver in the Curios belt slot. Right click while holding it opens the menu; Shift + right click selects the next occupied slot. It holds nine stacks, up to 576 arrows. The quiver accepts only this mod's five custom arrows, not other items or vanilla Minecraft arrows.
 

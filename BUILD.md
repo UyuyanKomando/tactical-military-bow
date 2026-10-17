@@ -4,7 +4,7 @@
 
 Java 17 ve Gradle 8.8 gerekir. Kaynak ZIP'te `work/standalone-bow` klasörüne girin. GeckoLib 4.8.4 Forge 1.20.1 ve Curios 5.14.1 Forge 1.20.1 JAR'larını kendi resmi dağıtımlarından edinip `libs/geckolib-4.8.4.jar` ve `libs/curios-5.14.1.jar` adlarıyla koyun. Bağımlılık modlarının ikilileri bu kaynak paketine dahil edilmez. `DEPENDENCY-HASHES.json` kullanılan yerel dosyaların SHA-256 kayıtlarını içerir.
 
-`gradle build --console=plain` çalıştırın. İlk derlemede ForgeGradle ve Minecraft bağımlılıkları için internet gerekir. Sonuç `build/libs/tactical-military-bow-forge-1.20.1-1.0.2.jar` dosyasıdır. Yerel modelleri yeniden üretmek şart değildir; düzenlenebilir JSON/PNG kaynakları `src/main/resources` içindedir.
+`gradle build --console=plain` çalıştırın. İlk derlemede ForgeGradle ve Minecraft bağımlılıkları için internet gerekir. Sonuç `build/libs/tactical-military-bow-forge-1.20.1-1.0.3.jar` dosyasıdır. Yerel modelleri yeniden üretmek şart değildir; düzenlenebilir JSON/PNG kaynakları `src/main/resources` içindedir.
 
 Model dışa aktarımından sonra paletleri yeniden üretmek için `./create-special-arrow-palettes.ps1`, ardından `./update-reticle-color.ps1` çalıştırın.
 
@@ -14,7 +14,7 @@ Model dışa aktarımından sonra paletleri yeniden üretmek için `./create-spe
 
 Requires Java 17 and Gradle 8.8. Enter `work/standalone-bow` in the source ZIP. Obtain the official GeckoLib 4.8.4 Forge 1.20.1 and Curios 5.14.1 Forge 1.20.1 JARs and save them as `libs/geckolib-4.8.4.jar` and `libs/curios-5.14.1.jar`. Dependency mod binaries are not included in this source archive. `DEPENDENCY-HASHES.json` records the SHA-256 hashes of the local build dependencies.
 
-Run `gradle build --console=plain`. The first build requires network access for ForgeGradle and Minecraft dependencies. Output: `build/libs/tactical-military-bow-forge-1.20.1-1.0.2.jar`. Asset regeneration is optional; editable JSON/PNG sources are included under `src/main/resources`.
+Run `gradle build --console=plain`. The first build requires network access for ForgeGradle and Minecraft dependencies. Output: `build/libs/tactical-military-bow-forge-1.20.1-1.0.3.jar`. Asset regeneration is optional; editable JSON/PNG sources are included under `src/main/resources`.
 
 After model export, regenerate palettes with `./create-special-arrow-palettes.ps1`, then `./update-reticle-color.ps1`.
 
