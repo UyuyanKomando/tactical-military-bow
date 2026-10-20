@@ -1,3 +1,31 @@
+# Türkçe - 1.0.4
+
+- Yayın render yükü azaltıldı; nişangâh vida ve halka geometrisi optimize edildi.
+- HUD ve envanterdeki küçük yay simgesi için hafif bir model eklendi.
+- HUD ve ok seçim çemberinin tekrarlayan mühimmat taramaları ortak, tick başına yenilenen önbelleğe alındı.
+- HUD sayaçları ile model/doku kaynak adreslerinin gereksiz yeniden oluşturulması azaltıldı.
+- Fresh Moves açıkken birinci şahıs elinin eksik görünmesine yönelik düzeltme: oyuncunun skin'ini koruyan, normal ve ince kollu skin'leri destekleyen bağımsız el geometrisi kullanılıyor.
+- İki elin ten ve kıyafet katmanları ortak çizim gruplarına alındı.
+- Köşe ve yüz çizimindeki geçici vektör üretimi azaltıldı; konum, UV, renk ve ışık verilerinin eşitliği otomatik testlerle kontrol edildi.
+- Atış davranışı, hasarlar, tarifler, 0,7 saniyelik çekiş ve animasyon zamanlamaları değişmedi.
+- Yeni zorunlu bağımlılık eklenmedi; Fresh Moves ve Arcana gerekli değildir.
+
+Performans kazancı donanıma, shader'a ve mod paketine bağlıdır. Her koşulda sabit FPS garantisi verilmez.
+
+# English - 1.0.4
+
+- Reduced bow rendering workload by optimizing sight screw and ring geometry.
+- Added a lightweight bow model for small HUD and inventory icons.
+- Shared a per-tick ammo-count cache between the HUD and arrow selection wheel instead of repeatedly scanning inventory every frame.
+- Reduced redundant HUD number formatting and model/texture resource-location allocations.
+- Fixed missing first-person hand geometry with Fresh Moves enabled by using independent standard/slim arms while retaining the player's skin.
+- Batched both hands into shared opaque skin and translucent sleeve draw groups.
+- Reduced temporary vector allocations during face and vertex rendering; automated tests verify matching positions, UVs, colors and lighting data.
+- Firing behavior, damage, recipes, the 0.7-second draw and animation timings are unchanged.
+- No new required dependencies; Fresh Moves and Arcana are not required.
+
+Performance gains depend on hardware, shaders and the modpack. Constant FPS in every configuration is not guaranteed.
+
 # Türkçe - 1.0.3
 
 - Peş peşe atışlarda, yay tam çekilmiş görünmesine rağmen okun fırlamaması düzeltildi. Önceki atışın bekleme süresinde başlayan çekiş artık kaybolmaz; atış aralığı sınırı korunur.

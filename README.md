@@ -2,6 +2,8 @@
 
 ## Türkçe
 
+1.0.4: Render geometrisi, küçük arayüz modeli, mühimmat sayımı ve çizim tahsisleri optimize edildi. Fresh Moves ile birinci şahıs el uyumluluğu iyileştirildi. Atış ve animasyon zamanlamaları korunur; performans etkisi shader ve mod paketine göre değişir.
+
 Minecraft 1.20.1 Forge için TaCZ ve LesRaisins üretim sistemiyle çalışan bağımsız makaralı yay. JEG'nin yayından türetilmiştir; JEG'nin kurulu olması gerekmez. Normal, delici, patlayıcı, zehirli ve alevli oklar; kemere takılan sadak; ok seçimi ve mühimmat HUD'u içerir.
 
 ### Kurulum ve bağımlılıklar
@@ -56,6 +58,8 @@ Geliştirici: **Korkuluk**. Yay, **Just Enough Guns (JEG)** yayından türetilmi
 GPLv3 lisans metni ve ilgili üçüncü taraf bildirimleri pakete dahildir. Ayrıntılar için `LICENSE-GPL-3.0.txt` ve `THIRD-PARTY-NOTICES.md` dosyalarına bakın. JEG kurulumu gerekmez.
 
 ## English
+
+1.0.4 optimizes render geometry, the small GUI model, ammo-count queries and render allocations. First-person hand compatibility with Fresh Moves is improved. Firing and animation timings are unchanged; performance varies with shaders and modpacks.
 
 A standalone compound bow for Minecraft 1.20.1 Forge, integrated with TaCZ and LesRaisins crafting. Derived from the JEG bow; JEG itself is not required. Includes normal, piercing, explosive, poison and flame arrows, a belt quiver, arrow selection and an ammo HUD.
 
