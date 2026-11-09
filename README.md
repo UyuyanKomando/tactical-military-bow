@@ -2,9 +2,11 @@
 
 ## Türkçe
 
+1.0.5: TaCZ 1.2 desteği, Zırh Kırıcı Ok, özel Curios sadak yuvası, 15 derece nişan eğimi ve daha küçük saplı ok görselleri eklendi. Ayrıntılar CHANGELOG-1.0.5.md dosyasındadır.
+
 1.0.4: Render geometrisi, küçük arayüz modeli, mühimmat sayımı ve çizim tahsisleri optimize edildi. Fresh Moves ile birinci şahıs el uyumluluğu iyileştirildi. Atış ve animasyon zamanlamaları korunur; performans etkisi shader ve mod paketine göre değişir.
 
-Minecraft 1.20.1 Forge için TaCZ ve LesRaisins üretim sistemiyle çalışan bağımsız makaralı yay. JEG'nin yayından türetilmiştir; JEG'nin kurulu olması gerekmez. Normal, delici, patlayıcı, zehirli ve alevli oklar; kemere takılan sadak; ok seçimi ve mühimmat HUD'u içerir.
+Minecraft 1.20.1 Forge için TaCZ ve LesRaisins üretim sistemiyle çalışan bağımsız makaralı yay. JEG'nin yayından türetilmiştir; JEG'nin kurulu olması gerekmez. Normal, delici, patlayıcı, zehirli, alevli ve zırh kırıcı oklar; özel Curios yuvasına takılan sadak; ok seçimi ve mühimmat HUD'u içerir.
 
 ### Kurulum ve bağımlılıklar
 
@@ -12,8 +14,8 @@ Java 17, Minecraft 1.20.1 ve Forge 47.x kullanın. Test edilen Forge sürümü: 
 
 | Mod | Kabul edilen sürüm | Test edilen sürüm |
 | --- | --- | --- |
-| [TaCZ] Timeless and Classics Zero Guns | 1.1.8 ve üzeri, 1.2'den düşük | 1.1.8-hotfix2 |
-| [TACZ] LesRaisins Tactical Equipements | 0.4.3 ve üzeri, 0.5'ten düşük | 0.4.3 |
+| [TaCZ] Timeless and Classics Zero Guns | 1.1.5 ve üzeri, 1.3'ten düşük | 1.1.8-hotfix/hotfix2 (API), 1.2.0 (oyun içi) |
+| [TACZ] LesRaisins Tactical Equipements | 0.4.3 ve üzeri, 0.5'ten düşük | 0.4.4 |
 | Curios API | 5.14.1 ve üzeri, 6'dan düşük | 5.14.1 |
 | GeckoLib | 4.8.4 ve üzeri, 5'ten düşük | 4.8.4 |
 
@@ -23,17 +25,17 @@ Güncelleme yaparken modun eski JAR dosyasını kaldırın ve dünyanızı yedek
 
 1.0.2: Yay ikinci eldeyken birinci şahıs görünümünde gizlenir. İkinci elde veya ilk hotbar yuvasında seçili değilken sırtta taşınır; iki durumda da konumu aynıdır. Nişangâh siyah gövdeli ve parlak neon kırmızı menzil çizgilidir.
 
-Sol tıkla kirişi çekip bırakarak ateş edin; sağ tıkla nişan alın. Tam çekiş normal oyun hızında 0,7 saniye sürer; tam çekişteki tekrarlayan yay sallanması kaldırılmıştır. R doldurur, O etkileşim içindir. Yay elindeyken TaCZ'nin Atış modu değiştirme tuşuna (varsayılan G) basılı tutarak beşli ok seçim çemberini açın; fareyle oku seçip tuşu bırakın. Merkezde bırakmak veya Esc iptal eder. Tuş yeniden atanabilir. Çekiş ve doldurma sırasında ok değiştirilemez. Önceki ok iade edilir; stokta olmayan türe geçilemez (Creative hariç). HUD yay adını, yay simgesini, ok türünü ve o türün yedek adedini gösterir. Çember Arcana gerektirmez ve Arcana'nın kendi mühimmat menüsünü kullanmaz.
+Sol tıkla kirişi çekip bırakarak ateş edin; sağ tıkla nişan alın. Tam çekiş normal oyun hızında 0,7 saniye sürer; tam çekişteki tekrarlayan yay sallanması kaldırılmıştır. R doldurur, O etkileşim içindir. Yay elindeyken TaCZ'nin Atış modu değiştirme tuşuna (varsayılan G) basılı tutarak altılı ok seçim çemberini açın; fareyle oku seçip tuşu bırakın. Merkezde bırakmak veya Esc iptal eder. Tuş yeniden atanabilir. Çekiş ve doldurma sırasında ok değiştirilemez. Önceki ok iade edilir; stokta olmayan türe geçilemez (Creative hariç). HUD yay adını, yay simgesini, ok türünü ve o türün yedek adedini gösterir. Çember Arcana gerektirmez ve Arcana'nın kendi mühimmat menüsünü kullanmaz.
 
-Sadağı Curios kemer yuvasına takın. Sadağı elinizde tutarken sağ tık menüsünü açar; Shift + sağ tık sıradaki dolu yuvayı seçer. Sadak dokuz yığın, toplam 576 ok tutar. Sadak yalnızca modun beş özel okunu kabul eder; diğer eşyalar ve Minecraft'ın standart okları eklenemez.
+Sadağı özel Curios Sadak yuvasına takın; diğer yuvalara takılmaz. Güncellemeden önce eski kemer yuvasındaki sadağı envantere alın. Sadağı elinizde tutarken sağ tık menüsünü açar; Shift + sağ tık sıradaki dolu yuvayı seçer. Sadak dokuz yığın, toplam 576 ok tutar. Sadak yalnızca modun altı özel okunu kabul eder; diğer eşyalar ve Minecraft'ın standart okları eklenemez.
 
 ### Oklar ve tarifler
 
-Normal, delici ve zehirli oklar çarptıkları yerde saplı kalır; yanına gidince yeniden toplanabilir. Saplandığı blok kırılınca ok eşya olarak yere düşer ve tekrar saplanmaz. Saplı oklar beş dakika sonra kaybolur. Patlayıcı ve alevli oklar etkilerini uyguladıktan sonra kaybolur ve geri alınamaz. Creative ve IgnoreAmmo atışları geri alınabilir ok üretmez.
+Normal, delici, zehirli ve zırh kırıcı oklar çarptıkları yerde saplı kalır; yanına gidince yeniden toplanabilir. Saplandığı blok kırılınca ok eşya olarak yere düşer ve tekrar saplanmaz. Saplı oklar beş dakika sonra kaybolur. Patlayıcı ve alevli oklar etkilerini uyguladıktan sonra kaybolur ve geri alınamaz. Creative ve IgnoreAmmo atışları geri alınabilir ok üretmez.
 
 Yay büyülenemez; bu moda özel büyüler ve büyü kitapları kaldırılmıştır. Ok gövdeleri uç tarafından %40 kısaltılmıştır. ItemPhysic Guns kuruluysa yere atılan yay ve oklar yatay durur; bu uyumluluk isteğe bağlıdır.
 
-Beş ok türü de TaCZ mühimmat montaj masasının **Explosives & Projectiles** bölümünde üretilir. Her tarif **45 ok** verir.
+Altı ok türü de TaCZ mühimmat montaj masasının **Explosives & Projectiles** bölümünde üretilir. Her tarif **45 ok** verir.
 
 | Ok | Malzeme | Temel doğrudan hasar |
 | --- | --- | --- |
@@ -41,6 +43,7 @@ Beş ok türü de TaCZ mühimmat montaj masasının **Explosives & Projectiles**
 | Delici | 10 çubuk + 2 demir külçesi + 2 altın külçesi + 10 ip | 35 |
 | Patlayıcı | 10 çubuk + 2 demir külçesi + 2 altın külçesi + 10 barut + 10 ip | 20 + alan patlaması |
 | Zehirli | 10 çubuk + 2 demir külçesi + 2 altın külçesi + 1 örümcek gözü + 1 redstone + 10 ip | 10 + 10 saniye Zehir I |
+| Zırh Kırıcı | 10 çubuk + 10 demir külçesi + 10 ip | 2 + isabet edilen zırhta aşınma |
 | Alevli | 10 çubuk + 2 demir külçesi + 2 altın külçesi + 1 çakmak taşı + 1 redstone + 10 ip | 10 + 10 saniye yanma |
 
 Alevli ok başarılı vuruşta hedefi 10 saniye yakar ve blok çarpmasında uygun bitişik boşluğa vanilla ateş yerleştirir. Yangının yayılması ve ahşabı tüketmesi vanilla yanıcılık kurallarını ve `doFireTick` ayarını izler; Nether ahşapları yanmaz. Su, yağmur, ateşe bağışıklık ve koruma kuralları geçerlidir.
@@ -59,9 +62,11 @@ GPLv3 lisans metni ve ilgili üçüncü taraf bildirimleri pakete dahildir. Ayr�
 
 ## English
 
+1.0.5 adds TaCZ 1.2 support, Armor Breaker Arrows, a dedicated Curios quiver slot, 15-degree ADS cant and smaller embedded arrow visuals. See CHANGELOG-1.0.5.md.
+
 1.0.4 optimizes render geometry, the small GUI model, ammo-count queries and render allocations. First-person hand compatibility with Fresh Moves is improved. Firing and animation timings are unchanged; performance varies with shaders and modpacks.
 
-A standalone compound bow for Minecraft 1.20.1 Forge, integrated with TaCZ and LesRaisins crafting. Derived from the JEG bow; JEG itself is not required. Includes normal, piercing, explosive, poison and flame arrows, a belt quiver, arrow selection and an ammo HUD.
+A standalone compound bow for Minecraft 1.20.1 Forge, integrated with TaCZ and LesRaisins crafting. Derived from the JEG bow; JEG itself is not required. Includes normal, piercing, explosive, poison, flame and armor breaker arrows, a dedicated-slot quiver, arrow selection and an ammo HUD.
 
 ### Installation and dependencies
 
@@ -69,8 +74,8 @@ Use Java 17, Minecraft 1.20.1 and Forge 47.x. Tested Forge version: 47.4.10. Ins
 
 | Mod | Accepted version | Tested version |
 | --- | --- | --- |
-| [TaCZ] Timeless and Classics Zero Guns | 1.1.8 or newer, below 1.2 | 1.1.8-hotfix2 |
-| [TACZ] LesRaisins Tactical Equipements | 0.4.3 or newer, below 0.5 | 0.4.3 |
+| [TaCZ] Timeless and Classics Zero Guns | 1.1.5 or newer, below 1.3 | 1.1.8-hotfix/hotfix2 (API), 1.2.0 (in-game) |
+| [TACZ] LesRaisins Tactical Equipements | 0.4.3 or newer, below 0.5 | 0.4.4 |
 | Curios API | 5.14.1 or newer, below 6 | 5.14.1 |
 | GeckoLib | 4.8.4 or newer, below 5 | 4.8.4 |
 
@@ -80,17 +85,17 @@ When updating, remove the mod's previous JAR and back up your world.
 
 1.0.2: The bow is hidden in first person while in the offhand. It is carried on the back while in the offhand or in the first hotbar slot when that slot is not selected, with matching placement. The sight has a black housing and bright neon red range markings.
 
-Hold and release left click to draw and fire; right click to aim. Full draw takes 0.7 seconds at normal tick speed; the repeating full-draw bow sway has been removed. R reloads; O interacts. While holding the bow, hold TaCZ's Fire Mode key (G by default, rebindable) to open the five-arrow selection wheel. Point at an arrow and release the key to select it. Release in the center or press Esc to cancel. Switching is blocked while drawing or reloading. The old loaded arrow is returned; unavailable types cannot be selected outside Creative mode. The HUD shows the bow name/icon, arrow type and that type's reserve count. This wheel does not require Arcana or use Arcana's native ammo menu.
+Hold and release left click to draw and fire; right click to aim. Full draw takes 0.7 seconds at normal tick speed; the repeating full-draw bow sway has been removed. R reloads; O interacts. While holding the bow, hold TaCZ's Fire Mode key (G by default, rebindable) to open the six-arrow selection wheel. Point at an arrow and release the key to select it. Release in the center or press Esc to cancel. Switching is blocked while drawing or reloading. The old loaded arrow is returned; unavailable types cannot be selected outside Creative mode. The HUD shows the bow name/icon, arrow type and that type's reserve count. This wheel does not require Arcana or use Arcana's native ammo menu.
 
-Equip the quiver in the Curios belt slot. Right click while holding it opens the menu; Shift + right click selects the next occupied slot. It holds nine stacks, up to 576 arrows. The quiver accepts only this mod's five custom arrows, not other items or vanilla Minecraft arrows.
+Equip the quiver in its dedicated Curios Quiver slot; other slots are rejected. Move an old belt-equipped quiver into inventory before updating. Right click while holding it opens the menu; Shift + right click selects the next occupied slot. It holds nine stacks, up to 576 arrows. The quiver accepts only this mod's six custom arrows, not other items or vanilla Minecraft arrows.
 
 ### Arrows and recipes
 
-Normal, piercing and poison arrows remain embedded on impact and can be recovered by approaching them. Breaking the supporting block drops the arrow as an item instead of making it embed again. Embedded arrows despawn after five minutes. Explosive and flame arrows disappear after their effects and cannot be recovered. Creative and IgnoreAmmo shots do not create recoverable arrows.
+Normal, piercing, poison and armor breaker arrows remain embedded on impact and can be recovered by approaching them. Breaking the supporting block drops the arrow as an item instead of making it embed again. Embedded arrows despawn after five minutes. Explosive and flame arrows disappear after their effects and cannot be recovered. Creative and IgnoreAmmo shots do not create recoverable arrows.
 
 The bow cannot be enchanted; this mod's custom enchantments and enchanted books have been removed. Arrow shafts are 40% shorter from the tip side. With ItemPhysic Guns installed, dropped bows and arrows lie flat; this integration is optional.
 
-All five arrow types are crafted in the TaCZ ammo workbench's **Explosives & Projectiles** section. Each recipe produces **45 arrows**.
+All six arrow types are crafted in the TaCZ ammo workbench's **Explosives & Projectiles** section. Each recipe produces **45 arrows**.
 
 | Arrow | Materials | Base direct damage |
 | --- | --- | --- |
@@ -98,6 +103,7 @@ All five arrow types are crafted in the TaCZ ammo workbench's **Explosives & Pro
 | Piercing | 10 sticks + 2 iron ingots + 2 gold ingots + 10 string | 35 |
 | Explosive | 10 sticks + 2 iron ingots + 2 gold ingots + 10 gunpowder + 10 string | 20 + area explosion |
 | Poison | 10 sticks + 2 iron ingots + 2 gold ingots + 1 spider eye + 1 redstone + 10 string | 10 + 10 seconds of Poison I |
+| Armor Breaker | 10 sticks + 10 iron ingots + 10 string | 2 + impact-region armor wear |
 | Flame | 10 sticks + 2 iron ingots + 2 gold ingots + 1 flint + 1 redstone + 10 string | 10 + 10 seconds of burning |
 
 Flame arrows ignite targets for 10 seconds on successful damage and place vanilla fire in a valid adjacent empty block on block impact. Fire spread and wood consumption follow vanilla flammability rules and `doFireTick`; Nether wood does not burn. Water, rain, fire immunity and protection rules apply.
@@ -113,3 +119,11 @@ Explosive arrows use the TaCZ M320 profile: 50 explosion damage, radius 6, knock
 Developed by **Korkuluk**. The bow is derived from **Just Enough Guns (JEG)**; original bow by **MigaMi**. Additional upstream credits: **MrCrayfish, Bomb787 and NineZero**. Arrow and quiver models were created for this project.
 
 The GPLv3 license text and applicable third-party notices are included in the package. See `LICENSE-GPL-3.0.txt` and `THIRD-PARTY-NOTICES.md` for details. JEG itself is not required.
+
+### TaCZ 1.1.5–1.2 Compatibility
+
+TaCZ 1.1.5–1.1.7: ok tarifleri Mühimmat bölümünde / arrow recipes appear in Ammunition. TaCZ 1.1.8+: Explosives & Projectiles.
+
+TaCZ 1.1.x: LR Tactical 0.4.3 kullanın / use LR Tactical 0.4.3. LR Tactical 0.4.4 requires TaCZ 1.2.
+
+1.1.5 resmi kaynak kodu, 1.1.6–1.2 JAR API bağlantıları kontrol edildi; eski sürümlerde oyun içi test henüz yapılmadı. / Official 1.1.5 source and 1.1.6–1.2 JAR APIs checked; legacy in-game testing remains pending.
